@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Atto\Framework\Container;
+namespace Atto\Framework\Config;
 
 use League\Container\Exception\NotFoundException;
 use Psr\Container\ContainerInterface;

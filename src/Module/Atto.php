@@ -6,8 +6,8 @@ namespace Atto\Framework\Module;
 
 use Atto\Framework\Application\ApplicationInterface;
 use Atto\Framework\Application\DefaultApplication;
-use Atto\Framework\Container\Compiler;
-use Atto\Framework\Container\ConfigContainer;
+use Atto\Framework\Config\Compiler;
+use Atto\Framework\Config\ConfigContainer;
 use League\Container\Container;
 use Psr\Container\ContainerInterface;
 

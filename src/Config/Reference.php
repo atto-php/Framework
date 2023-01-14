@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Atto\Framework\Container;
+namespace Atto\Framework\Config;
 
 final class Reference
 {
