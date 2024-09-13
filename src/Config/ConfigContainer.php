@@ -40,7 +40,7 @@ final class ConfigContainer implements ContainerInterface
         return $config;
     }
 
-    public function has(string $id)
+    public function has(string $id): bool
     {
         $keyList = explode('.', $id);
         $check = array_shift($keyList);
